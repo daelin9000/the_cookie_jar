@@ -11,9 +11,13 @@ function bakeCookies () {
 
     debugMenu.style.position = "absolute";
     debugMenu.style.color = "white";
-    debugMenu.style.top = "50px";
-    debugMenu.style.left = "50px";
+    debugMenu.style.top = "0px";
+    debugMenu.style.left = "0px";
     debugMenu.style.fontSize = "20px";
+    debugMenu.style.zIndex = "9999";
+    debugMenu.style.background = "black";
+    debugMenu.style.padding = "20px";
+    debugMenu.style.paddingLeft = "40px";
 
 
     debugMenu.appendChild(debugList)
